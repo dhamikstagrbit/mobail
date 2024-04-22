@@ -1,0 +1,77 @@
+.record th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background: #000;
+    color: #fff;
+    padding: 10px 0px;
+}
+
+.record {
+    border: 1px solid black;
+    border-collapse: collapse;
+    column-gap: 30px;
+    width: 100%;
+    ;
+    height: auto;
+}
+
+.search {
+    display: flex;
+    justify-content: end;
+    margin: 15px 0px;
+}
+
+.record tr td {
+    border: 1px solid;
+}
+
+.search button {
+    border: none;
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 3px;
+    margin: 0px 5px;
+}
+
+.filter-feilds {
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter-box {
+    display: flex;
+    align-items: center;
+}
+
+select#sort {
+    padding: 10px 15px;
+    border: none;
+    background: #000;
+    border-radius: 5px;
+    margin: 10px 0px;
+    color: #fff;
+}
+
+section {
+    margin-top: 50px;
+}
+#sort option{
+  padding: 10px;
+}
+.table-heading {
+    text-align: start;
+    padding-right: 10px;
+}
+input#submit {
+    border: none;
+    padding: 15px;
+    width: 110px;
+    margin: 20px 0px;
+    border-radius: 10px;
+    background: black;
+    color: #fff;
+}
+.validation {
+    color: red;
+}
